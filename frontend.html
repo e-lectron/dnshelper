@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <title>DNS Каталог товаров</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <h1>Каталог товаров</h1>
+
+  <!-- Поиск + сканирование -->
+  <div class="search-container">
+    <input type="text" placeholder="Поиск товаров..." class="search-input">
+    <div class="scan-icon">
+      <img src="icons/scan-main.svg" alt="Сканировать">
+    </div>
+  </div>
+
+  <!-- Категории -->
+  <div id="categories" class="categories"></div>
+
+  <!-- Список товаров -->
+  <div id="products-list" class="products-list"></div>
+
+  <!-- Нижнее меню -->
+  <nav class="bottom-menu">
+    <div class="menu-item">
+      <img src="icons/map.svg" alt="Карта">
+      <span>Карта</span>
+    </div>
+    <div class="menu-item">
+      <img src="icons/search.svg" alt="Поиск">
+      <span>Поиск</span>
+    </div>
+    <div class="menu-item">
+      <img src="icons/reviews.svg" alt="Отзывы">
+      <span>Отзывы</span>
+    </div>
+    <div class="menu-item">
+      <img src="icons/profile.svg" alt="ЛК">
+      <span>ЛК</span>
+    </div>
+    <div class="menu-item">
+      <img src="icons/instructions.svg" alt="Инструкции">
+      <span>Инструкции</span>
+    </div>
+  </nav>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
